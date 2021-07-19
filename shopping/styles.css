@@ -1,0 +1,90 @@
+.items{
+display: flex;
+flex-direction: column;
+/* margin-left: ; */
+}
+p{
+    font-size: 30px;
+    /* font-family: sans-serif; */
+    font-family: 'Viaoda Libre', cursive;
+    color: grey;
+    margin-left: 250px;
+}
+.item{
+    display: flex;
+    /* justify-content: baseline; */
+    justify-content: space-around;
+    align-items: center;
+    border-style: inset;
+    padding: 10px 10px;
+    margin-bottom: 10px ;
+    margin-left: 250px;
+    /* margin: 10px 10px; */
+    width: 800px;
+}
+.quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 50px;
+}
+.far fa-heart{
+    padding-left: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+h1{
+    font-family: 'Viaoda Libre', cursive;
+    color: grey;
+}
+.fas fa-minus-square{
+    color: grey;
+}
+h4{
+    color: grey;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+.prices input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+.totals input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+.totals{
+    display: flex;
+    /* justify-content: baseline; */
+    justify-content: space-around;
+    align-items: center;
+    border-style: inset;
+    padding: 10px 10px;
+    margin-bottom: 10px ;
+    margin-left: 250px;
+    /* margin: 10px 10px; */
+    width: 800px;
+}
+.color{
+   color:  red;
+}

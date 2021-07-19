@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ef15d2a916.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <section class="items">
+        <p>Shopping bag</p>
+        <!-- product 1 -->
+        <section class="item dele1">
+            <div class="icons">
+                <i class="fas fa-heart heart"></i>
+               <i class="fas fa-trash-alt trash" onclick="deletear1()" ></i>
+            </div>
+            <div class="image">
+                <img src="article1.jpg" alt="Sandals" width="150px" height="150px">
+            </div>
+            <div class="description">
+                <h1>Sandals</h1>
+                <h1>Mint green</h1>
+            </div>
+            <div class="quantity">
+                <i class="fas fa-minus-square moin" ></i>
+                <input type="text" name="name" value="1" class="entré">
+                <i class="fas fa-plus-square plus"></i>
+            </div>
+            <div class="prices">
+                <input type="text" name="name" value="22" class="price">
+            </div>
+        </section>
+
+        <!-- product 2 -->
+        <section class="item dele2">
+            <div class="icons">
+                <i class="fas fa-heart heart"></i>
+               <i class="fas fa-trash-alt trash" onclick="deletear2()"></i>
+            </div>
+            <div class="image">
+                <img src="article2.jpg" alt="Bag" width="150px" height="150px">
+            </div>
+            <div class="description">
+                <h1>Hand Bag</h1>
+                <h1>Pink</h1>
+            </div>
+            <div class="quantity">
+                <i class="fas fa-minus-square moin" ></i>
+                <input type="text" name="name" value="1" class="entré">
+                <i class="fas fa-plus-square plus"></i>
+            </div>
+            <div class="prices">
+                <input type="text" name="name" value="288" class="price">
+            </div>
+        </section>
+        <!-- product 3 -->
+        <section class="item dele3">
+            <div class="icons">
+                <i class="fas fa-heart heart"></i>
+                <i class="fas fa-trash-alt trash" onclick="deletear3()"></i>
+            </div>
+            <div class="image">
+                <img src="article3.jpg" alt="Sandals" width="150px" height="150px">
+            </div>
+            <div class="description">
+                <h1> Women Set</h1>
+                <h1>Red</h1>
+            </div>
+            <div class="quantity">
+                <i class="fas fa-minus-square moin" ></i>
+                <input type="text" name="name" value="1" class="entré">
+                <i class="fas fa-plus-square plus"></i>
+            </div>
+            <div class="prices">
+                <input type="text" name="name" value="70" class="price">
+            </div>
+        </section>
+        <section  class="totals">
+            <h2>Total</h2>
+            <input type="text" name="name" value="0" class="total">
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
